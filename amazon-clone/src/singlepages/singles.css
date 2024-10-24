@@ -1,0 +1,26 @@
+.single-page{
+    width: 1100px;
+    margin: 50px auto;
+    display: flex;
+    gap: 150px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+}
+.single-img>img{
+    width: 300px;
+}
+.single-page>h5{
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.single-desc>p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.addtocart{
+    background-color: #BE781C;
+    border-radius: 5px;
+    padding: 3px 25px;
+    border: none;
+}

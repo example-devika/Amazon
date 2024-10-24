@@ -1,0 +1,82 @@
+.backtotop{
+    height:460px;
+
+}
+.information{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: -8px;
+    padding-top: 40px;
+    
+}
+.info-box{
+    background-color: #232F3E;
+    height: 412px;
+
+
+}
+.backtotop>h4{
+    background-color: #37475A;
+    text-align: center;
+    padding: 14px;
+    font-size: 18px;
+    color: white;
+}
+.info>ul>li{
+list-style-type: none;
+font-size: 14px;
+text-transform: capitalize;
+}
+.info>ul>li:hover{
+text-decoration: underline;
+
+}
+.info>h5{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.info>ul{
+margin-left: -33px;
+
+}
+.horiz{
+    color: white;
+    width: 100%;
+    margin-bottom: 0;
+}
+.lang{
+    border: 1px solid gray;
+    padding: 3px 10px;
+    display: flex;
+    gap: 8px;
+    border-radius: 3px;
+    background-color: #232F3E;
+    color: white;
+}
+.lang>select>option{
+    background-color:none;
+    border: none;
+
+}
+.country>img{
+    width: 30px;
+    height: 20px;
+    padding-right: 10px;
+}
+.country{
+    color: white;
+    padding: 3px 28px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    display: inline-block;
+}
+.amazon{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

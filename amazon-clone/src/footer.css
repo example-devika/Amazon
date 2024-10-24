@@ -1,0 +1,33 @@
+.footer{
+    height: 300px;
+    background-color: #131A22;
+    width: 100%;
+}
+.footerd>ul>li{
+    text-transform: capitalize;
+    font-size: 12px;
+
+}
+.footerd>ul>li:first-child{
+    font-size: 12px;
+    font-weight: 700;
+}
+.footergrid{
+    width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0;
+}
+.footerd{
+    width: 200px;
+    padding-top: 30px;
+}
+.conditions{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+.conditions>span{
+    font-size: 14px;
+}

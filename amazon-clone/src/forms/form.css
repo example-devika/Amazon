@@ -1,0 +1,76 @@
+.register{
+    width: 100%;
+    font-family: sans-serif;
+}
+.signup{
+    width:360px;
+    margin: 0px auto;
+  border:  1px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+
+}
+.input>label{
+    font-size: 12px;
+    font-weight: 600;
+}
+.input>input{
+    width:100%;
+    border-radius: 5px;
+    padding: 5px;
+    height: 30px;
+    border: 1px solid rgb(131, 129, 129);
+}
+
+.signup>hr{
+    width: 300px;
+}
+a{
+    text-decoration: none;
+}
+.imgpage{
+    text-align: center;
+    margin-top: 10px;
+}
+input::placeholder{
+    font-size: 12px;
+}
+.button{
+   width: 320px;
+   margin-top: 15px;
+   border-radius: 10px;
+   height: 35px;
+   background-color: #e48912;
+   border: none;
+   color: white;
+
+}
+p{
+    font-size: 12px;
+    text-align: center;
+}
+.account{
+    text-align: center;
+margin: 30px auto;
+    background-color:white ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.account>a{
+    color: black;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    padding: 5px 40px;
+
+
+}

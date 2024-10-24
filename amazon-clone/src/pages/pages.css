@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+.mobiles-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width:1300px;
+    margin: 30px auto;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+
+}
+.mobilepage{
+    width: 260px;
+    height: 400pxx;
+    border: 1px solid gray;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 20px 30px;
+gap: 20px;
+}
+.pageimg>img{
+    width:150px;
+    height: 150px;
+    text-align: center;
+}
+.pageimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

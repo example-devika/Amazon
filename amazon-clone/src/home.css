@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+.home-container{
+    margin-bottom: -250px;
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+    width: 100%;
+    z-index: -1;
+}
+.home-container>img{
+width: 100%;
+}
+.products-info{
+    background-color: #E3E6E6;
+    margin-top: 20px;
+    height: 410vh;
+
+}
+
+.products>h1{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 20px;
+}
+.prodata{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    height: 280px;
+    width: 240px;
+
+   
+}
+.prosection{
+    margin: 20px ;
+    display: flex;
+    align-items: center;
+    gap:20px;
+
+}
+
+.prodata>img{
+    width:180px;
+    height: 140px;
+    margin-top: 25px;
+}
+.pro{
+    width: 245px;
+
+}
+.proac{
+    background-color: #FFD77D;
+    padding: 15px;
+    border-radius: 5px;
+}
+.promodel,.pro-title{
+    font-size: 20px;
+}
+hr{
+    width: 1310px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.signin{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+    height: 280px;
+}
+
+.btn{
+    width: 240px;
+    background-color: #FFC739;
+    margin-top: 20px;
+}
+.customer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+small>a{
+    text-decoration: none;
+}
+small{
+    font-size: 14px;
+}
+
+
