@@ -5,7 +5,7 @@ const Checkout = () => {
   const { cartItems } = useCart();
   const getTotalPrice = () => {
     return cartItems.reduce((total, item) => {
-      return total + item.price;
+      return total + (item.quantity*item.price);
     }, 0);
   };
   return (

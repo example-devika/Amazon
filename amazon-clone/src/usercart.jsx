@@ -1,27 +1,46 @@
 import React, { useState } from "react";
 import { useCart } from "./context/cartcontext";
 import { Link, useSearchParams } from "react-router-dom";
+import Checkout from "./checkout";
 
 const Usercart = () => {
   const { cartItems, removeFromCart } = useCart();
+  const [products,setProducts]=useState(cartItems)
+
   const quantityincrease = (id) => {
-    const updatedProduct = cartItems.filter((product) => product.id === id);
-    console.log(updatedProduct);
+    const updatedProducts = products.map((product) => 
+      product.id === id
+        ? { ...product, quantity: product.quantity + 1 }  // Properly increment the quantity
+        : product
+    );
+    console.log(updatedProducts)
 
-    updatedProduct.quantity++;
-    console.log(updatedProduct.quantity);
+    
+    setProducts(updatedProducts);  // Update the state with the new product list
+    console.log(products)
   };
+  
+
   const quantitydecrease = (id) => {
-    const updatedProduct = cartItems.filter((product) => product.id === id);
-  };
+    const updatedProducts = products.map((product) => 
+      product.id === id&&product.quantity>1
+        ? { ...product, quantity: product.quantity - 1 }  // Properly increment the quantity
+        : product
+    );
+    console.log(updatedProducts)
+    
+    setProducts(updatedProducts);  // Update the state with the new product list
+    console.log(products)
 
+  };
+  
   return (
     <>
       {cartItems.length === 0 ? (
         <h2 className="empty">Your cart is empty</h2>
       ) : (
         <div className="cart">
-          {cartItems.map((item) => {
+          {products.map((item) => {
             return (
               <div className="cart-page" key={item.id}>
                 <img src={item.image} alt="" />

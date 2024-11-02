@@ -25,7 +25,7 @@ const Signinpage = () => {
     
      <input type="text" name='password' id='password' placeholder='Atleast 6 characters' required/>
      </div>
-     <button type='submit'> Sign in</button>
+     <button type='submit' className='button'> Sign in</button>
    </form>
    <hr />
 
@@ -36,9 +36,9 @@ const Signinpage = () => {
         
 
      </div> 
-     <button className="account">
+     <p className="account">
         <Link to="/register" > Create Your Amazon Account</Link>
-</button>
+</p>
      </>
       
   )
