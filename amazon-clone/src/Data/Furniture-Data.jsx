@@ -1,6 +1,8 @@
 export const furnitureData=[
   {
     "id":"1",
+    "quantity":1,
+
     "image":"/furniture/1.jpg",
     "product": "Furniture",
     "type": "Sofa",
@@ -11,6 +13,8 @@ export const furnitureData=[
     "description": "A comfortable and modern sofa with plush cushions and a sleek design."
   },
   {
+    "quantity":1,
+
     "id":"2",
     "image":"/furniture/2.jpg",
 
@@ -25,6 +29,7 @@ export const furnitureData=[
   {
     "id":"3",
     "image":"/furniture/3.jpg",
+    "quantity":1,
 
     "product": "Furniture",
     "type": "Bed",
@@ -36,6 +41,8 @@ export const furnitureData=[
   },
   {
   "id":"4",
+  "quantity":1,
+
   "image":"/furniture/4.jpg",
 
     "product": "Furniture",
@@ -47,6 +54,8 @@ export const furnitureData=[
     "description": "A modern coffee table with a blend of materials, adding character to your living room."
   },
   {
+    "quantity":1,
+
   "id":"5",
   "image":"/furniture/5.jpg",
 
@@ -61,6 +70,7 @@ export const furnitureData=[
   {
   "id":"6",
   "image":"/furniture/6.jpg",
+  "quantity":1,
 
     "product": "Furniture",
     "type": "Bookshelf",
@@ -73,6 +83,7 @@ export const furnitureData=[
   {
   "id":"7",
   "image":"/furniture/7.jpg",
+  "quantity":1,
 
     "product": "Furniture",
     "type": "Desk",
@@ -85,6 +96,7 @@ export const furnitureData=[
   {
   "id":"8",
   "image":"/furniture/8.jpg",
+  "quantity":1,
 
     "product": "Furniture",
     "type": "Bar Stool",
@@ -103,11 +115,15 @@ export const furnitureData=[
     "brand": "Pottery Barn",
     "model": "RusticCharm",
     "price": 599.99,
+    "quantity":1,
+
     "category": "Home",
     "description": "A rustic dresser with ample storage space and charming distressed finish."
   },
   {
   "id":"10",
+  "quantity":1,
+
   "image":"/furniture/10.jpg",
 
     "product": "Furniture",
@@ -126,11 +142,15 @@ export const furnitureData=[
     "brand": "CB2",
     "model": "MinimalistSide",
     "price": 149.50,
+    "quantity":1,
+
     "category": "Home",
     "description": "A minimalist side table with clean lines, adding functionality to any space."
   },
   {
     "product": "Furniture",
+    "quantity":1,
+
     "type": "Bedside Table",
     "brand": "Ethan Allen",
     "id":"12",

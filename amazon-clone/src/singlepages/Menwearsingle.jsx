@@ -10,7 +10,7 @@ const Menwearsingle = () => {
     const {id}=useParams()
     const product= mensData.find((item)=>item.id===id)
     console.log(product)
-    const {cartItems,addToCart}=useCart()
+    const {addToCart}=useCart()||{}
 
 
   return (
@@ -34,7 +34,7 @@ const Menwearsingle = () => {
                     <div className="single-desc">
                         <p>{product.description}</p>
                     </div>
-                    <button className='addtocart'  onClick={()=>addToCart(product)} onClick={()=>addToCart(product)}>Add to cart</button>
+                    <button className='addtocart'  onClick={()=>addToCart(product)} >Add to cart</button>
 
                     </div>
 

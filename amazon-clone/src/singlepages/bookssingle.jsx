@@ -10,7 +10,7 @@ const Bookssingle = () => {
     const {id}=useParams()
     const product= booksData.find((item)=>item.id===id)
     console.log(product)
-    const {cartItems,addToCart}=useCart()
+    const {addToCart}=useCart()
 
 
   return (

@@ -1,6 +1,8 @@
 export const mensData=[
   {
   "id":"1",
+  "quantity":1,
+
   "image":"/menwear/1.jpg",
     "product": "Menswear",
     "type": "T-Shirt",
@@ -12,6 +14,8 @@ export const mensData=[
   },
   {
   "id":"2",
+  "quantity":1,
+
   "image":"/menwear/2.jpg",
 
     "product": "Menswear",
@@ -24,6 +28,8 @@ export const mensData=[
   },
   {
   "id":"3",
+  "quantity":1,
+
   "image":"/menwear/3.jpg",
 
     "product": "Menswear",
@@ -36,6 +42,8 @@ export const mensData=[
   },
   {
   "id":"4",
+  "quantity":1,
+
   "image":"/menwear/4.jpg",
 
     "product": "Menswear",
@@ -48,6 +56,8 @@ export const mensData=[
   },
   {
   "id":"5",
+  "quantity":1,
+
   "image":"/menwear/5.jpg",
 
     "product": "Menswear",
@@ -61,6 +71,7 @@ export const mensData=[
   {
   "id":"6",
   "image":"/menwear/6.jpg",
+  "quantity":1,
 
     "product": "Menswear",
     "type": "Shorts",
@@ -72,6 +83,8 @@ export const mensData=[
   },
   {
   "id":"7",
+  "quantity":1,
+
   "image":"/menwear/7.jpg",
 
     "product": "Menswear",
@@ -83,6 +96,8 @@ export const mensData=[
     "description": "A classic crewneck sweater made from soft and comfortable materials."
   },
   {
+    "quantity":1,
+
   "id":"8",
   "image":"/menwear/8.jpg",
 
@@ -95,6 +110,8 @@ export const mensData=[
     "description": "A modern-fit suit crafted with attention to detail, perfect for formal occasions."
   },
   {
+    "quantity":1,
+
   "id":"9",
   "image":"/menwear/9.jpg",
 
@@ -107,6 +124,8 @@ export const mensData=[
     "description": "A comfortable and stylish hoodie with the Adidas logo, suitable for everyday wear."
   },
   {
+    "quantity":1,
+    
   "id":"10",
   "image":"/menwear/10.jpg",
 
@@ -120,6 +139,8 @@ export const mensData=[
     "description": "Versatile chino pants with a modern slim fit, suitable for casual and semi-formal occasions."
   },
   {
+    "quantity":1,
+
     "id":"11",
   "image":"/menwear/1.jpg",
 
@@ -132,6 +153,8 @@ export const mensData=[
     "description": "Durable and comfortable swim trunks designed for performance and comfort in the water."
   },
   {
+    "quantity":1,
+
     "id":"12",
   "image":"/menwear/5.jpg",
 

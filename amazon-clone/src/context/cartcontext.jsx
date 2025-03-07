@@ -7,7 +7,7 @@ import React, { createContext, useContext, useState } from 'react'
       setcartItems([...cartItems,item])
     }
     const removeFromCart=(item)=>{
-      setcartItems(cartItems.filter((apple)=>apple!==item))
+      setcartItems(cartItems.filter((apple)=>apple.id!==item.id))
     }
 return(
   <CartContext.Provider value={{cartItems,addToCart,removeFromCart}}>

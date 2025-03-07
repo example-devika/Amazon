@@ -1,6 +1,8 @@
 export const booksData=[
   {
     "id":"1",
+    "quantity":1,
+
     "image":"/books/1.jpg",
     "product": "Book",
     "title": "The Great Gatsby",
@@ -12,6 +14,7 @@ export const booksData=[
   {
     "id":"2",
     "image":"/books/2.jpg",
+    "quantity":1,
 
 
     "product": "Book",
@@ -24,6 +27,7 @@ export const booksData=[
   {
     "id":"3",
     "image":"/books/3.jpg",
+    "quantity":1,
 
     "product": "Book",
     "title": "1984",
@@ -41,10 +45,14 @@ export const booksData=[
     "author": "Jane Austen",
     "price": 8.75,
     "category": "Romance",
+    "quantity":1,
+
     "description": "A beloved romance novel exploring societal norms and personal relationships."
   },
   {
     "id":"5",
+    "quantity":1,
+
     "image":"/books/5.jpg",
 
     "product": "Book",
@@ -56,6 +64,8 @@ export const booksData=[
   },
   {
     "id":"6",
+    "quantity":1,
+
     "image":"/books/6.jpg",
 
     "product": "Book",
@@ -68,6 +78,7 @@ export const booksData=[
   {
     "id":"7",
     "image":"/books/7.jpg",
+    "quantity":1,
 
     "product": "Book",
     "title": "The Catcher in the Rye",
@@ -84,12 +95,15 @@ export const booksData=[
     "title": "The Lord of the Rings",
     "author": "J.R.R. Tolkien",
     "price": 24.99,
+    "quantity":1,
+
     "category": "Fantasy",
     "description": "An epic fantasy trilogy chronicling the quest to destroy the One Ring and save Middle-earth."
   },
   {
     "id":"9",
     "image":"/books/9.jpg",
+    "quantity":1,
 
     "product": "Book",
     "title": "The Hunger Games",
@@ -101,6 +115,7 @@ export const booksData=[
   {
     "id":"10",
     "image":"/books/10.jpg",
+    "quantity":1,
 
     "product": "Book",
     "title": "Brave New World",
@@ -112,6 +127,7 @@ export const booksData=[
   {
     "id":"11",
     "image":"/books/4.jpg",
+    "quantity":1,
 
     "product": "Book",
     "title": "The Alchemist",
@@ -124,6 +140,8 @@ export const booksData=[
     "id":"12",
     "image":"/books/2.jpg",
     "product": "Book",
+    "quantity":1,
+
     "title": "The Girl on the Train",
     "author": "Paula Hawkins",
     "price": 9.25,

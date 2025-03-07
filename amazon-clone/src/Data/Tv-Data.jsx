@@ -1,6 +1,8 @@
 export const TVData=[
   {
     "id":"1",
+    "quantity":1,
+
     "image":"/TV/8.jpg",
     "product": "TV",
     "brand": "LG",
@@ -12,6 +14,8 @@ export const TVData=[
   {
     "id":"2",
     "image":"/TV/2.jpg",
+    "quantity":1,
+
 
     "product": "TV",
     "brand": "Sony",
@@ -23,6 +27,8 @@ export const TVData=[
   {
     "id":"3",
     "image":"/TV/3.jpg",
+    "quantity":1,
+
 
     "product": "TV",
     "brand": "Samsung",
@@ -33,6 +39,8 @@ export const TVData=[
   },
   {
     "id":"4",
+    "quantity":1,
+
     "image":"/TV/4.jpg",
 
     "product": "TV",
@@ -44,6 +52,8 @@ export const TVData=[
   },
   {
     "id":"5",
+    "quantity":1,
+
     "image":"/TV/5.jpg",
 
     "product": "TV",
@@ -55,6 +65,8 @@ export const TVData=[
   },
   {
     "id":"6",
+    "quantity":1,
+
     "image":"/TV/6.jpg",
 
     "product": "TV",
@@ -66,6 +78,8 @@ export const TVData=[
   },
   {
     "id":"7",
+    "quantity":1,
+
     "image":"/TV/7.jpg",
 
     "product": "TV",
@@ -77,6 +91,8 @@ export const TVData=[
   },
   {
     "id":"8",
+    "quantity":1,
+
     "image":"/TV/8.jpg",
 
     "product": "TV",
@@ -88,6 +104,8 @@ export const TVData=[
   },
   {
     "id":"9",
+    "quantity":1,
+
     "image":"/TV/9.jpg",
 
     "product": "TV",
@@ -99,6 +117,8 @@ export const TVData=[
   },
   {
     "id":"10",
+    "quantity":1,
+
     "image":"/TV/10.jpg",
 
     "product": "TV",
@@ -110,6 +130,8 @@ export const TVData=[
   },
   {
     "id":"11",
+    "quantity":1,
+
     "image":"/TV/3.jpg",
     "product": "TV",
     "brand": "Insignia",
@@ -120,6 +142,8 @@ export const TVData=[
   },
   {
     "product": "TV",
+    "quantity":1,
+
     "brand": "Samsung",
     "model": "The Frame",
     "price": 1499.00,

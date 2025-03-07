@@ -1,5 +1,6 @@
 export const ACData=[
   {
+    "quantity":1,
     "id":"1",
     "image":"/AC/1.jpg",
     "product": "Air Conditioner",
@@ -10,6 +11,7 @@ export const ACData=[
     "description": "Powerful 15000 BTU window air conditioner with energy-saving features."
   },
   {
+    "quantity":1,
     "id":"2",
     "image":"/AC/2.jpg",
 
@@ -21,6 +23,8 @@ export const ACData=[
     "description": "Advanced split-system AC with smart temperature control and quiet operation."
   },
   {
+    "quantity":1,
+
     "id":"3",
     "image":"/AC/3.jpg",
 
@@ -32,6 +36,8 @@ export const ACData=[
     "description": "Ductless mini-split AC with adjustable airflow and dehumidification."
   },
   {
+    "quantity":1,
+
     "id":"4",
     "image":"/AC/4.jpg",
 
@@ -45,6 +51,7 @@ export const ACData=[
   {
     "id":"5",
     "image":"/AC/5.jpg",
+    "quantity":1,
 
     "product": "Window AC",
     "company": "Whirlpool",
@@ -56,6 +63,7 @@ export const ACData=[
   {
     "id":"6",
     "image":"/AC/6.jpg",
+    "quantity":1,
 
     "product": "Smart AC",
     "company": "Nest",
@@ -67,6 +75,7 @@ export const ACData=[
   {
     "id":"7",
     "image":"/AC/7.jpg",
+    "quantity":1,
 
     "product": "Inverter AC",
     "company": "Mitsubishi",
@@ -77,6 +86,8 @@ export const ACData=[
   },
   {
     "id":"8",
+    "quantity":1,
+
     "image":"/AC/8.jpg",
 
     "product": "Portable AC",
@@ -89,6 +100,7 @@ export const ACData=[
   {
     "id":"9",
     "image":"/AC/9.jpg",
+    "quantity":1,
 
     "product": "Ducted AC",
     "company": "Lennox",
@@ -105,11 +117,15 @@ export const ACData=[
     "company": "Panasonic",
     "model": "WallMaster Pro 1800",
     "price": 749.00,
+    "quantity":1,
+
     "category": "Electronics",
     "description": "Wall-mounted AC with adjustable louvers and energy-saving features."
   },
   {
     "id":"11",
+    "quantity":1,
+
     "image":"/AC/2.jpg",
     "product": "Split AC",
     "company": "Haier",
@@ -120,6 +136,8 @@ export const ACData=[
   },
   {
     "id":"12",
+    "quantity":1,
+
     "image":"/AC/4.jpg",
     "product": "Central AC",
     "company": "Trane",
